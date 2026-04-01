@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shop</title>
+</head>
+
+<body>
+	<h1><b><i>Benvenuto!</i></b></h1>
+	<style>
+		.banner-dark {
+			display: none;
+			background-color: #cf4d0c;
+			color: #050504;
+			text-align: center;
+			padding: 12px 16px;
+			font-family:
+				system-ui,
+				-apple-system,
+				"Segoe UI",
+				Roboto,
+				"Helvetica Neue",
+				Arial;
+			border-radius: 6px;
+			box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+			margin: 12px auto;
+			max-width: 822px;
+		}
+
+		.banner-dark.visible {
+			display: block;
+		}
+	</style>
+
+	<div class="banner-dark" id="banner-dark"><b>⚠️ BOB! ⚠️</b></div>
+
+	<script>
+		document.getElementById("banner-dark").classList.add("visible");
+	</script>
+</body>
+
+</html>
