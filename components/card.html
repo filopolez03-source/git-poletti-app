@@ -2,6 +2,31 @@
   <img src="placeholder.png" alt="Immagine di esempio">
   
   <h3>Titolo della Card</h3>
-  
+  <style>
+      .card {
+    /* Bordo arrotondato */
+    border-radius: 12px;
+    
+    /* Ombra (leggera e moderna) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    /* Padding interno */
+    padding: 20px;
+    
+    /* Opzionale: aggiungiamo un colore di sfondo e un bordo sottile per definire meglio i volumi */
+    background-color: #ffffff;
+    border: 1px solid #eee;
+    
+    /* Opzionale: transizione fluida per eventuali hover */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Effetto al passaggio del mouse (opzionale ma consigliato) */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+    
+  </style>
   <p>Questo è un testo breve descrittivo, ideale per una rapida anteprima.</p>
 </div>                  
